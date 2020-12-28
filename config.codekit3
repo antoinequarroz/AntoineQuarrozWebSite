@@ -327,6 +327,14 @@
 		"oAP": "/migrations/.gitignore",
 		"oF": 0
 		},
+	"/migrations/Version20201228215717.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/migrations/Version20201228215717.php",
+		"oF": 0
+		},
 	"/phpunit.xml.dist": {
 		"cB": 0,
 		"ft": 8192,
@@ -12197,6 +12205,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/public/assets/scss/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/public/assets/scss/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/public/assets/scss/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -12224,6 +12242,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/index.php",
+		"oF": 0
+		},
+	"/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/README.html",
 		"oF": 0
 		},
 	"/README.md": {
@@ -12285,6 +12311,22 @@
 		"oAP": "/src/Entity/.gitignore",
 		"oF": 0
 		},
+	"/src/Entity/Contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/Entity/Contact.php",
+		"oF": 0
+		},
+	"/src/Form/ContactType.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/Form/ContactType.php",
+		"oF": 0
+		},
 	"/src/Kernel.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -12299,6 +12341,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/src/Repository/.gitignore",
+		"oF": 0
+		},
+	"/src/Repository/ContactRepository.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/src/Repository/ContactRepository.php",
 		"oF": 0
 		},
 	"/src/Repository/HomepageRepository.php": {
