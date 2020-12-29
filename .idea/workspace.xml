@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b0b0aa8b-be86-4315-801d-660c67869142" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/parcours/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parcours/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ParcoursController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CompetenceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/parcours/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/competence/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/portfolio/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +169,7 @@
       <workItem from="1609067035094" duration="76000" />
       <workItem from="1609067231677" duration="3099000" />
       <workItem from="1609107639870" duration="29203000" />
-      <workItem from="1609246013996" duration="1904000" />
+      <workItem from="1609246013996" duration="13262000" />
     </task>
     <servers />
   </component>
@@ -183,13 +185,17 @@
       <screen x="1680" y="25" width="2560" height="1055" />
     </state>
     <state x="2560" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609107813704" />
+    <state x="2668" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609266085731">
+      <screen x="1680" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2668" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609266085731" />
     <state x="2698" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609192768459">
       <screen x="1680" y="25" width="2560" height="1055" />
     </state>
     <state x="2698" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609192768459" />
-    <state x="2625" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1609204536804">
+    <state x="2625" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1609266046954">
       <screen x="1680" y="25" width="2560" height="1055" />
     </state>
-    <state x="2625" y="259" width="670" height="676" key="search.everywhere.popup/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609204536804" />
+    <state x="2625" y="259" width="670" height="676" key="search.everywhere.popup/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609266046954" />
   </component>
 </project>
