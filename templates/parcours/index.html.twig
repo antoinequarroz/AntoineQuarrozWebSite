@@ -3,284 +3,300 @@
 {% block title %}Portfolio{% endblock %}
 
 {% block content %}
-    <section class="pt-4 pt-md-11">
+    <section class="py-8 py-md-11 border-bottom">
         <div class="container">
             <div class="text-center text-md-left mb-5">
                 <a href="{{ path ('homepage') }}" class="btn btn-primary-soft shadow lift mr-1" style="width: 120px">
                     Retour
                 </a>
             </div>
-            <div class="row align-items-center">
-                <div class="col-12 col-md-5 order-md-2">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center">
+                    <!-- Headin -->
+                    <h1 class="display-1 font-weight-bold text-dark" data-aos="fade-up" data-aos-delay="50">
+                        Parcours
+                    </h1>
+
+                    <!-- Text -->
+                    <p class="lead text-muted mb-6" data-aos="fade-up" data-aos-delay="100">
+                       Présentation de mon parcours et mes compétences web et multimédia
+                    </p>
+
+                </div>
+            </div> <!-- / .row -->
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="200">
+
+                    <!-- Video -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video class="embed-responsive-item rounded-lg bg-dark shadow-lg" src="assets/video/video-2.mp4" autoplay loop muted>
+                            Sorry, your browser doesn't support embedded videos,
+                            but don't worry, you can <a href="assets/video/video-2.mp4">download it</a>
+                            and watch it with your favorite video player!
+                        </video>
+                    </div>
+
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </section>
+
+    <!-- STEPS
+    ================================================== -->
+    <div class="position-relative mt-n12 mt-md-n15">
+        <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+            <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M720 125L2160 0h720v250H0V125h720z" fill="currentColor"/></svg>
+        </div>
+    </div>
+
+    <!-- STEPS
+    ================================================== -->
+    <div class="section bg-dark pt-12 pt-md-15 pb-8 pb-md-11">
+        <div class="container">
+            <div class="row justify-content-between align-items-center mb-5">
+                <div class="col-12 col-md-4 order-md-2 text-center">
 
                     <!-- Image -->
-                    <img src="assets/img/illustrations/illustration-1.png" class="img-fluid mb-6 mb-md-0" alt="...">
+                    <img class="img-fluid w-75 w-md-100 mb-6 mb-md-0" src="assets/img/illustrations/illustration-5.png" alt="...">
 
                 </div>
                 <div class="col-12 col-md-7 order-md-1">
 
                     <!-- Heading -->
-                    <h1 class="display-4">
-                        We want to showcase all <br>
-                        <span class="text-primary">the rich blog post options.</span>
+                    <h2 class="text-white" style="max-width: 450px;">
+                        We start with your needs and deliver a full banking solution.
+                    </h2>
+
+                    <!-- Text -->
+                    <div class="lead text-muted-80 mb-0">
+                        Once you provide us with your company’s basic information, we handle the remainder of the process without questions.
+                    </div>
+
+                </div>
+            </div> <!-- / .row -->
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="row">
+                        <div class="col-auto col-md-12">
+
+                            <!-- Step -->
+                            <div class="row no-gutters align-items-center mb-md-5">
+                                <div class="col-auto">
+
+                                    <!-- Number -->
+                                    <a class="btn btn-sm btn-rounded-circle btn-gray-400-10 disabled opacity-1" href="#!">
+                                        <span>1</span>
+                                    </a>
+
+                                </div>
+                                <div class="col">
+
+                                    <!-- Divider -->
+                                    <hr class="d-none d-md-block border-gray-900-50 mr-n7">
+
+                                </div>
+                            </div> <!-- / .row -->
+
+                        </div>
+                        <div class="col col-md-12 ml-n5 ml-md-0">
+
+                            <!-- Heading -->
+                            <h3 class="text-white">
+                                Fill out your intro survey
+                            </h3>
+
+                            <!-- Text -->
+                            <p class="text-muted-80 mb-6 mb-md-0">
+                                We start with a short 3-step online survey to help us determine the best banking solution for your specific startup.
+                            </p>
+
+                        </div>
+                    </div> <!-- / .row -->
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="row">
+                        <div class="col-auto col-md-12">
+
+                            <!-- Step -->
+                            <div class="row no-gutters align-items-center mb-md-5">
+                                <div class="col-auto">
+
+                                    <!-- Number -->
+                                    <a href="#!" class="btn btn-sm btn-rounded-circle btn-gray-400-10 disabled opacity-1">
+                                        <span>2</span>
+                                    </a>
+
+                                </div>
+                                <div class="col">
+
+                                    <!-- Divider -->
+                                    <hr class="d-none d-md-block border-gray-900-50 mr-n7">
+
+                                </div>
+                            </div> <!-- / .row -->
+
+                        </div>
+                        <div class="col col-md-12 ml-n5 ml-md-0">
+
+                            <!-- Heading -->
+                            <h3 class="text-white">
+                                We build a banking stack.
+                            </h3>
+
+                            <!-- Text -->
+                            <p class="text-muted-80 mb-6 mb-md-0">
+                                From your information, we generate a banking stack well suited to your company’s personalized needs.
+                            </p>
+
+                        </div>
+                    </div> <!-- / .row -->
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="row">
+                        <div class="col-auto col-md-12">
+
+                            <!-- Step -->
+                            <div class="row no-gutters align-items-center mb-md-5">
+                                <div class="col-auto">
+
+                                    <!-- Number -->
+                                    <a href="#!" class="btn btn-sm btn-rounded-circle btn-gray-400-10 disabled opacity-1">
+                                        <span>3</span>
+                                    </a>
+
+                                </div>
+                            </div> <!-- / .row -->
+
+                        </div>
+                        <div class="col col-md-12 ml-n5 ml-md-0">
+
+                            <!-- Heading -->
+                            <h3 class="text-white">
+                                Registration and filings
+                            </h3>
+
+                            <!-- Text -->
+                            <p class="text-muted-80 mb-0">
+                                We handle the creation of your actual account including registering with the financial and government agencies.
+                            </p>
+
+                        </div>
+                    </div> <!-- / .row -->
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container-->
+    </div>
+
+    <!-- STEPS
+    ================================================== -->
+    <div class="position-relative">
+        <div class="shape shape-top shape-fluid-x shape-flip-x svg-shim text-dark">
+            <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h2880v125h-720L720 250H0V0z" fill="currentColor"/></svg>
+        </div>
+    </div>
+
+    <!-- ABOUT
+    ================================================== -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-6 col-lg-5 order-md-2">
+
+                    <!-- Image grid -->
+                    <div class="d-flex flex-column w-md-130 mb-6 mb-md-0">
+
+                        <!-- Image -->
+                        <img class="img-fluid rounded shadow align-self-start" data-jarallax-element="-20" src="assets/img/screenshots/ui/analytics-2.png" alt="..." style="min-height: 1px; max-width: 50%; margin-left: 40%;">
+
+                        <!-- Image -->
+                        <img class="img-fluid rounded shadow align-self-start" data-jarallax-element="-50" src="assets/img/screenshots/ui/analytics-1.png" alt="..." style="min-height: 1px; max-width: 50%; margin-top: -35%;">
+
+                        <!-- Image -->
+                        <img class=" img-fluid rounded shadow align-self-center" data-jarallax-element="-80" src="assets/img/screenshots/ui/analytics-3.png" alt="..." style="min-height: 1px; max-width: 50%; margin-top: -20%;">
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 order-md-1 pt-md-12">
+
+                    <!-- Heading -->
+                    <h1>
+                        Powerful metrics to better understand your business.
                     </h1>
 
                     <!-- Text -->
-                    <p class="lead text-muted mb-0">
-                        How you use Landkit's blog cards is up to you! Our design begins with atomic elements which are easily combined to create rich blog post components.
+                    <p class="font-size-lg text-gray-700 mb-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula auctor ornare. Nulla non ullamcorper tellus. Vestibulum pulvinar eros nec tortor maximus, iaculis rutrum nibh mollis.
                     </p>
 
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section>
-    <section class="pt-8 pt-md-11">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
+                    <!-- List -->
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
 
-                    <!-- Heading -->
-                    <h2 class="mb-0">
-                        Horizontal articles
-                    </h2>
+                            <!-- Item -->
+                            <div class="d-flex">
 
-                    <!--  -->
-                    <p class="mb-5 text-muted">
-                        These span the grid's entire width with several options.
-                    </p>
-
-                </div>
-            </div> <!-- / .row -->
-            <div class="row">
-                <div class="col-12">
-
-                    <!-- Card -->
-                    <div class="card card-row shadow-light-lg mb-6">
-                        <div class="row no-gutters">
-                            <div class="col-12">
-
-                                <!-- Badge -->
-                                <span class="badge badge-pill badge-gray-600 badge-float badge-float-outside">
-                    <span class="h6 text-uppercase">Featured</span>
-                  </span>
-
-                            </div>
-                            <a class="col-12 col-md-6 order-md-2 bg-cover card-img-right" style="background-image: url(assets/img/photos/photo-27.jpg);" href="#!">
-
-                                <!-- Image (placeholder) -->
-                                <img src="assets/img/photos/photo-27.jpg" alt="..." class="img-fluid d-md-none invisible">
-
-                                <!-- Shape -->
-                                <div class="shape shape-left shape-fluid-y svg-shim text-white d-none d-md-block">
-                                    <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h62.759v172C38.62 384 112 517 112 517v173H0V0z" fill="currentColor"></path></svg>
+                                <!-- Check -->
+                                <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                                    <i class="fe fe-check"></i>
                                 </div>
 
-                            </a>
-                            <div class="col-12 col-md-6 order-md-1">
-
-                                <!-- Body -->
-                                <a class="card-body" href="#!">
-
-                                    <!-- Heading -->
-                                    <h3>
-                                        Photo on Right.
-                                    </h3>
-
-                                    <!-- Text -->
-                                    <p class="mb-0 text-muted">
-                                        This is the body text of the blog post to give visitors an idea of what the post is about beyond just the title. It can be a long snippet, a short snippet, whatever you prefer the size of card and description to be.
-                                    </p>
-
-                                </a>
-
-                                <!-- Meta -->
-                                <a class="card-meta" href="#!">
-
-                                    <!-- Divider -->
-                                    <hr class="card-meta-divider">
-
-                                    <!-- Avatar -->
-                                    <div class="avatar avatar-sm mr-2">
-                                        <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
-                                    </div>
-
-                                    <!-- Author -->
-                                    <h6 class="text-uppercase text-muted mr-2 mb-0">
-                                        Ab Hadley
-                                    </h6>
-
-                                    <!-- Date -->
-                                    <p class="h6 text-uppercase text-muted mb-0 ml-auto">
-                                        <time datetime="2019-05-31">May 31</time>
-                                    </p>
-
-                                </a>
+                                <!-- Text -->
+                                <p class="text-success">
+                                    Real-time data
+                                </p>
 
                             </div>
 
-                        </div> <!-- / .row -->
-                    </div>
+                            <!-- Item -->
+                            <div class="d-flex">
 
-                    <!-- Card -->
-                    <div class="card card-row shadow-light-lg mb-6">
-                        <div class="row no-gutters">
-                            <div class="col-12">
-
-                                <!-- Badge -->
-                                <span class="badge badge-pill badge-gray-600 badge-float badge-float-outside">
-                    <span class="h6 text-uppercase">Featured</span>
-                  </span>
-
-                            </div>
-                            <a class="col-12 col-md-6 bg-cover card-img-left" style="background-image: url(assets/img/photos/photo-28.jpg);" href="#!">
-
-                                <!-- Image (placeholder) -->
-                                <img src="assets/img/photos/photo-28.jpg" alt="..." class="img-fluid d-md-none invisible">
-
-                                <!-- Shape -->
-                                <div class="shape shape-right shape-fluid-y svg-shim text-white d-none d-md-block">
-                                    <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M116 0H51v172C76 384 0 517 0 517v173h116V0z" fill="currentColor"></path></svg>
+                                <!-- Check -->
+                                <div class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                                    <i class="fe fe-check"></i>
                                 </div>
 
-                            </a>
-                            <div class="col-12 col-md-6">
-
-                                <!-- Body -->
-                                <a class="card-body" href="#!">
-
-                                    <!-- Heading -->
-                                    <h3>
-                                        Photo on Left.
-                                    </h3>
-
-                                    <!-- Text -->
-                                    <p class="mb-0 text-muted">
-                                        This is the body text of the blog post to give visitors an idea of what the post is about beyond just the title. It can be a long snippet, a short snippet, whatever you prefer the size of card and description to be.
-                                    </p>
-
-                                </a>
-
-                                <!-- Meta -->
-                                <a class="card-meta" href="#!">
-
-                                    <!-- Divider -->
-                                    <hr class="card-meta-divider">
-
-                                    <!-- Avatar -->
-                                    <div class="avatar avatar-sm mr-2">
-                                        <img src="assets/img/avatars/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
-                                    </div>
-
-                                    <!-- Author -->
-                                    <h6 class="text-uppercase text-muted mr-2 mb-0">
-                                        Adolfo Hess
-                                    </h6>
-
-                                    <!-- Date -->
-                                    <p class="h6 text-uppercase text-muted mb-0 ml-auto">
-                                        <time datetime="2019-05-29">May 29</time>
-                                    </p>
-
-                                </a>
+                                <p class="text-success mb-lg-0">
+                                    FDIC Insured
+                                </p>
 
                             </div>
 
                         </div>
-                    </div>
+                        <div class="col-12 col-lg-6">
 
-                    <!-- Card -->
-                    <div class="card card-row shadow-light-lg bg-cover overlay overlay-dark overlay-80 text-white mb-6" style="background-image: url(assets/img/covers/cover-8.jpg);">
-                        <div class="row no-gutters">
-                            <div class="col-12 col-md-6">
+                            <!-- Item -->
+                            <div class="d-flex">
 
-                                <!-- Body -->
-                                <a class="card-body" href="#!">
+                                <!-- Check -->
+                                <span class="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </span>
 
-                                    <!-- Heading -->
-                                    <h3>
-                                        Background Photo + 80% Dark Overlay.
-                                    </h3>
-
-                                    <!-- Text -->
-                                    <p class="mb-0 text-white-80">
-                                        It's easy to add a background image for the entire card, plus make text more legible by adding an overlay across the background with simple utility classes. These are all generated from the theme's variables!
-                                    </p>
-
-                                </a>
-
-                                <!-- Meta -->
-                                <a class="card-meta" href="#!">
-
-                                    <!-- Divider -->
-                                    <hr class="card-meta-divider border-white-20">
-
-                                    <!-- Avatar -->
-                                    <div class="avatar avatar-sm mr-2">
-                                        <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
-                                    </div>
-
-                                    <!-- Author -->
-                                    <h6 class="text-uppercase text-white-80 mr-2 mb-0">
-                                        Ab Hadley
-                                    </h6>
-
-                                    <!-- Date -->
-                                    <p class="h6 text-uppercase text-white-80 mb-0 ml-auto">
-                                        <time datetime="2019-05-02">May 02</time>
-                                    </p>
-
-                                </a>
+                                <!-- Text -->
+                                <p class="text-success">
+                                    End-to-end encyption
+                                </p>
 
                             </div>
-                        </div> <!-- / .row -->
-                    </div>
 
-                    <!-- Card -->
-                    <div class="card card-row shadow-light-lg bg-cover overlay overlay-gradient-dark-right overlay-60 text-white mb-6" style="background-image: url(assets/img/photos/photo-30.jpg);">
-                        <div class="row no-gutters justify-content-end">
-                            <div class="col-12 col-md-6">
+                            <!-- Item -->
+                            <div class="d-flex">
 
-                                <!-- Body -->
-                                <a class="card-body" href="#!">
+                                <!-- Check -->
+                                <div class="badge badge-rounded-circle badge-success-soft mr-1 mr-4">
+                                    <i class="fe fe-check"></i>
+                                </div>
 
-                                    <!-- Heading -->
-                                    <h3>
-                                        Background Photo + Gradient Overlay.
-                                    </h3>
-
-                                    <!-- Text -->
-                                    <p class="mb-0 text-white-80">
-                                        This blog card example shows a background image, but instead of an even wash across the entire background, it's a gradient from right to left controlled by another simple utility class.
-                                    </p>
-
-                                </a>
-
-                                <!-- Meta -->
-                                <a class="card-meta" href="#!">
-
-                                    <!-- Divider -->
-                                    <hr class="card-meta-divider border-white-20">
-
-                                    <!-- Avatar -->
-                                    <div class="avatar avatar-sm mr-2">
-                                        <img src="assets/img/avatars/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
-                                    </div>
-
-                                    <!-- Author -->
-                                    <h6 class="text-uppercase text-white-80 mr-2 mb-0">
-                                        Adolfo Hess
-                                    </h6>
-
-                                    <!-- Date -->
-                                    <p class="h6 text-uppercase text-white-80 mb-0 ml-auto">
-                                        <time datetime="2019-05-02">May 02</time>
-                                    </p>
-
-                                </a>
+                                <!-- Text -->
+                                <p class="text-success mb-0">
+                                    REST API enabled
+                                </p>
 
                             </div>
-                        </div> <!-- / .row -->
-                    </div>
+
+                        </div>
+                    </div> <!-- / .row -->
 
                 </div>
             </div> <!-- / .row -->
@@ -288,24 +304,286 @@
     </section>
 
 
+    <br>
 
-    <!-- /FOOTER -->
-    <section class="pt-15 bg-dark">
-    <div class="position-relative mt-n15">
-        <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
-            <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
-        </div>
-    </div>
 
-    <!-- FAQ
+    <!-- INTEGRATIONS
     ================================================== -->
-        <div class="container pt-8 pt-md-11">
-            <div class="row">
+    <section class="bg-dark py-8 py-md-7">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center">
 
+                    <!-- Heading -->
+                    <h1 class="font-weight-bold text-white">
+                        Technos
+                    </h1>
+
+                    <!-- Text -->
+                    <p class="font-size-lg text-muted mb-9">
+                        Mes technologies préférées
+                    </p>
+
+
+                </div>
             </div> <!-- / .row -->
-        </div> <!-- / .container -->
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 text-center">
 
-        <footer class="py-8 py-md-11 bg-dark">
+                    <!-- Icon -->
+                    <div class="icon icon-lg mb-4 ml-5">
+                        <svg width="1773" height="2500" viewBox="0 0 256 375" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><path d="M255.555 70.766l-23.241 260.36-104.47 28.962-104.182-28.922L.445 70.766h255.11z" fill="#E44D26"/><path d="M128 337.95l84.417-23.403 19.86-222.49H128V337.95z" fill="#F16529"/><path d="M82.82 155.932H128v-31.937H47.917l.764 8.568 7.85 88.01H128v-31.937H85.739l-2.919-32.704zM90.018 236.542h-32.06l4.474 50.146 65.421 18.16.147-.04V271.58l-.14.037-35.568-9.604-2.274-25.471z" fill="#EBEBEB"/><path d="M24.18 0h16.23v16.035h14.847V0h16.231v48.558h-16.23v-16.26H40.411v16.26h-16.23V0zM92.83 16.103H78.544V0h44.814v16.103h-14.295v32.455h-16.23V16.103h-.001zM130.47 0h16.923l10.41 17.062L168.203 0h16.93v48.558h-16.164V24.49l-11.166 17.265h-.28L146.35 24.49v24.068h-15.88V0zM193.21 0h16.235v32.508h22.824v16.05h-39.06V0z"/><path d="M127.89 220.573h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08.779-8.576H127.89v31.937zM127.89 155.854v.078h77.143l.64-7.178 1.456-16.191.763-8.568H127.89v31.86z" fill="#FFF"/></svg>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3 class="font-weight-bold text-white">
+                        HTML 5
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-8">
+                        C’est un langage informatique utilisé sur l'internet. Ce langage est utilisé pour créer des pages web
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                    <!-- Icon -->
+                    <div class="icon icon-lg mb-4 ml-2">
+                        <svg width="1773" height="2500" viewBox="0 0 256 361" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M127.844 360.088L23.662 331.166.445 70.766h255.11l-23.241 260.36-104.47 28.962z" fill="#264DE4"/><path d="M212.417 314.547l19.86-222.49H128V337.95l84.417-23.403z" fill="#2965F1"/><path d="M53.669 188.636l2.862 31.937H128v-31.937H53.669zM47.917 123.995l2.903 31.937H128v-31.937H47.917zM128 271.58l-.14.037-35.568-9.604-2.274-25.471h-32.06l4.474 50.146 65.421 18.16.147-.04V271.58z" fill="#EBEBEB"/><path d="M60.484 0h38.68v16.176H76.66v16.176h22.506v16.175H60.484V0zM106.901 0h38.681v14.066h-22.505v2.813h22.505v32.352h-38.68V34.46h22.505v-2.813H106.9V0zM153.319 0H192v14.066h-22.505v2.813H192v32.352h-38.681V34.46h22.505v-2.813H153.32V0z"/><path d="M202.127 188.636l5.765-64.641H127.89v31.937h45.002l-2.906 32.704H127.89v31.937h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08.779-8.576z" fill="#FFF"/></svg>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3 class="font-weight-bold text-white">
+                        CSS 3
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-8 mb-lg-0">
+                        C’est un langage informatique utilisé sur l'internet pour mettre en forme les fichiers HTML ou XML
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                    <!-- Icon -->
+                    <div class="icon icon-lg mb-4">
+                        <svg enable-background="new 0 0 1776 2500" viewBox="0 0 1776 2500" xmlns="http://www.w3.org/2000/svg"><path d="m1776 489.9h-1776l166.5 1805.5 721.4 204.6 721.4-204.6z" fill="#e6a329"/><path d="m887.9 637v1710l584.5-165.6 142.2-1544.4z" fill="#f1bf22"/><path d="m1352.9 858.5h-898.7l-62.6 676 1.3-4.2h763.5l-24.9 286-243.6 70.1-247.2-71.2-14.8-173.1h-224.4l32 345.9 454.4 129 454.6-129 62.6-678.9h-810.3l10.4-226.2h562.2l8.4 129.6h226.4z" fill="#fff"/><path d="m888.1 858.5h-433.9l-62.6 676 1.3-4.2h495.2v-220.5h-261.7l10.4-226.2h251.3zm-261.7 783.6h-224.9l32 345.7 454.4 128.8v-230l-247.2-71.4z" fill="#ebebeb"/><path d="m715.2 223.6h-158.1v113.5h271.2v-337.1h-113.1zm503.6-221.8h-275.6v118c36.8 36.8 56 54.5 110.2 107.8h-110.2v107.6h275.6v-107.4l-110.2-107.8h110.2z" fill="#231f20"/></svg>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3 class="font-weight-bold text-white">
+                        JavaScript
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-8 mb-md-0">
+                        C’ est un langage de script orienté objet principalement utilisé dans les pages HTML
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="bg-light py-8 py-md-7">
+        <div class="container">
+            <br>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center">
+
+                    <h2 class="font-weight-bold text-dark">
+                        CSS
+                    </h2>
+                    <p class="font-size-lg text-muted mb-9">
+                        Un framework CSS est une bibliothèque permettant une conception Web plus simple et plus conforme aux normes à l'aide du langage Cascading Style Sheets
+                    </p>
+
+
+
+                </div>
+            </div> <!-- / .row -->
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                    <!-- Icon -->
+                    <div class="icon icon-lg mb-4 ml-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2500" height="1875" viewBox="0 0 512 384"><path fill="#CF649A" d="M440.6 220.6c-17.9.101-33.4 4.4-46.4 10.801-4.8-9.5-9.6-17.801-10.399-24-.9-7.2-2-11.601-.9-20.2C384 178.6 389 166.4 389 165.4c-.101-.9-1.101-5.3-11.4-5.4s-19.2 2-20.2 4.7-3 8.9-4.3 15.3c-1.8 9.4-20.6 42.7-31.3 60.2-3.5-6.8-6.5-12.8-7.101-17.601-.899-7.199-2-11.6-.899-20.199 1.1-8.601 6.1-20.8 6.1-21.8-.1-.9-1.1-5.3-11.399-5.4-10.301-.1-19.2 2-20.2 4.7s-2.1 9.1-4.3 15.3C281.9 201.4 256.9 257 250.4 271.5c-3.3 7.4-6.199 13.3-8.3 17.3-2.1 4-.1.3-.3.7-1.8 3.4-2.8 5.3-2.8 5.3v.101c-1.4 2.5-2.9 4.899-3.601 4.899-.5 0-1.5-6.7.2-15.899 3.7-19.301 12.7-49.4 12.601-50.5 0-.5 1.699-5.801-5.801-8.5-7.3-2.7-9.899 1.8-10.5 1.8-.6 0-1.1 1.6-1.1 1.6s8.1-33.899-15.5-33.899c-14.8 0-35.2 16.1-45.3 30.8-6.4 3.5-20 10.899-34.4 18.8-5.5 3-11.2 6.2-16.6 9.1L117.9 251.9c-28.6-30.5-81.5-52.1-79.3-93.1.8-14.9 6-54.2 101.601-101.8 78.3-39 141-28.3 151.899-4.5 15.5 34-33.5 97.2-114.899 106.3-31 3.5-47.301-8.5-51.4-13-4.3-4.7-4.9-4.9-6.5-4-2.6 1.4-1 5.6 0 8.1 2.4 6.3 12.4 17.5 29.4 23.1 14.899 4.9 51.3 7.6 95.3-9.4 49.3-19.1 87.8-72.1 76.5-116.4-11.5-45.1-86.3-59.9-157-34.8C121.4 27.4 75.8 50.8 43 81.5 4 117.9-2.2 149.7.4 162.9c9.101 47.1 74 77.8 100 100.5-1.3.699-2.5 1.399-3.6 2-13 6.399-62.5 32.3-74.9 59.699-14 31 2.2 53.301 13 56.301 33.4 9.3 67.6-7.4 86.1-34.9 18.399-27.5 16.2-63.2 7.7-79.5l-.301-.6 10.2-6c6.601-3.9 13.101-7.5 18.8-10.601-3.199 8.7-5.5 19-6.699 34-1.4 17.601 5.8 40.4 15.3 49.4 4.2 3.899 9.2 4 12.3 4 11 0 16-9.101 21.5-20 6.8-13.3 12.8-28.7 12.8-28.7s-7.5 41.7 13 41.7c7.5 0 15-9.7 18.4-14.7v.1s.2-.3.6-1a36.13 36.13 0 0 0 1.2-1.899v-.2c3-5.2 9.7-17.1 19.7-36.8 12.899-25.4 25.3-57.2 25.3-57.2s1.2 7.8 4.9 20.6c2.199 7.601 6.999 15.9 10.699 24-3 4.2-4.8 6.601-4.8 6.601l.1.1c-2.399 3.2-5.1 6.601-7.899 10-10.2 12.2-22.4 26.101-24 30.101-1.9 4.699-1.5 8.199 2.2 11 2.7 2 7.5 2.399 12.6 2 9.2-.601 15.6-2.9 18.8-4.301 5-1.8 10.7-4.5 16.2-8.5 10-7.399 16.1-17.899 15.5-31.899-.3-7.7-2.8-15.3-5.9-22.5.9-1.3 1.801-2.601 2.7-4 15.8-23.101 28-48.5 28-48.5s1.2 7.8 4.9 20.6c1.899 6.5 5.7 13.601 9.1 20.601-14.8 12.1-24.1 26.1-27.3 35.3-5.9 17-1.3 24.7 7.4 26.5 3.899.8 9.5-1 13.699-2.8 5.2-1.7 11.5-4.601 17.301-8.9 10-7.4 19.6-17.7 19.1-31.6-.3-6.4-2-12.7-4.3-18.7 12.6-5.2 28.899-8.2 49.6-5.7 44.5 5.2 53.3 33 51.601 44.6-1.7 11.601-11 18-14.101 20-3.1 1.9-4.1 2.601-3.8 4 .4 2.101 1.8 2 4.5 1.601 3.7-.601 23.4-9.5 24.2-30.899 1.2-27.504-24.9-57.504-71.2-57.205zM97.4 336.3c-14.7 16.1-35.4 22.2-44.2 17-9.5-5.5-5.801-29.2 12.3-46.3 11-10.4 25.3-20 34.7-25.9 2.1-1.3 5.3-3.199 9.1-5.5.6-.399 1-.6 1-.6.7-.4 1.5-.9 2.3-1.4 6.7 24.4.3 45.8-15.2 62.7zm107.5-73.1c-5.1 12.5-15.9 44.6-22.4 42.8-5.601-1.5-9-25.8-1.101-49.8 4-12.101 12.5-26.5 17.5-32.101 8.101-9 16.9-12 19.101-8.3 2.6 4.801-9.9 39.601-13.1 47.401zm88.7 42.4c-2.2 1.101-4.2 1.9-5.1 1.301-.7-.4.899-1.9.899-1.9s11.1-11.9 15.5-17.4c2.5-3.199 5.5-6.899 8.7-11.1v1.2C313.6 292.1 299.8 301.7 293.6 305.6zm68.399-15.6c-1.6-1.2-1.399-4.9 4-16.5 2.101-4.6 6.9-12.3 15.2-19.6 1 3 1.601 5.899 1.5 8.6-.099 18-12.899 24.7-20.7 27.5z"/></svg>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3 class="font-weight-bold text-dark">
+                        Sass
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-8">
+                        Sass est un préprocesseur CSS. C'est un langage de description compilé en CSS
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                    <!-- Icon -->
+                    <div class="icon icon-lg mb-4 ml-2">
+                        <svg width="2500" height="2500" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><path d="M0 222.991C0 241.223 14.779 256 33.009 256H222.99C241.223 256 256 241.221 256 222.991V33.01C256 14.777 241.221 0 222.991 0H33.01C14.777 0 0 14.779 0 33.009V222.99z" fill="#563D7C"/><path d="M106.158 113.238V76.985h31.911c3.04 0 5.97.253 8.792.76 2.822.506 5.319 1.41 7.49 2.713 2.17 1.303 3.907 3.112 5.21 5.427 1.302 2.316 1.954 5.283 1.954 8.9 0 6.513-1.954 11.217-5.862 14.111-3.907 2.895-8.9 4.342-14.979 4.342h-34.516zM72.075 50.5v155h75.112c6.947 0 13.713-.868 20.298-2.605 6.585-1.737 12.446-4.414 17.584-8.032 5.137-3.618 9.226-8.286 12.265-14.002 3.04-5.717 4.559-12.483 4.559-20.298 0-9.697-2.352-17.982-7.055-24.856-4.704-6.875-11.832-11.687-21.384-14.437 6.947-3.328 12.194-7.598 15.74-12.808 3.545-5.21 5.318-11.722 5.318-19.538 0-7.236-1.194-13.314-3.582-18.235-2.388-4.92-5.753-8.864-10.095-11.831-4.341-2.967-9.551-5.102-15.63-6.404-6.078-1.303-12.808-1.954-20.189-1.954H72.075zm34.083 128.515v-42.549h37.121c7.381 0 13.315 1.7 17.802 5.102 4.486 3.401 6.73 9.081 6.73 17.041 0 4.053-.688 7.381-2.063 9.986-1.375 2.605-3.22 4.668-5.536 6.187-2.315 1.52-4.993 2.605-8.032 3.257-3.04.65-6.223.976-9.552.976h-36.47z" fill="#FFF"/></svg>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3 class="font-weight-bold text-dark">
+                        Bootstrap 4
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-8 mb-lg-0">
+                        C’est une collection d'outils utiles à la création du design de sites et d'applications web
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark py-8 py-md-7">
+        <div class="container">
+            <br>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center">
+
+                    <!-- Heading -->
+                    <h2 class="font-weight-bold text-white">
+                        JavaScript
+                    </h2>
+
+                    <!-- Text -->
+                    <p class="font-size-lg text-muted mb-9">
+                        Un framework JavaScript est un framework d'application écrit en JavaScript. Elle diffère d'une bibliothèque JavaScript par son flux de contrôle: une bibliothèque propose des fonctions à appeler par son code parent, alors qu'un framework définit la conception complète de l'application
+                    </p>
+
+
+                </div>
+            </div> <!-- / .row -->
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                    <!-- Icon -->
+                    <div class="icon icon-lg mb-4">
+                        <svg height="2500" viewBox="175.7 78 490.6 436.9" width="2194" xmlns="http://www.w3.org/2000/svg"><g fill="#61dafb"><path d="m666.3 296.5c0-32.5-40.7-63.3-103.1-82.4 14.4-63.6 8-114.2-20.2-130.4-6.5-3.8-14.1-5.6-22.4-5.6v22.3c4.6 0 8.3.9 11.4 2.6 13.6 7.8 19.5 37.5 14.9 75.7-1.1 9.4-2.9 19.3-5.1 29.4-19.6-4.8-41-8.5-63.5-10.9-13.5-18.5-27.5-35.3-41.6-50 32.6-30.3 63.2-46.9 84-46.9v-22.3c-27.5 0-63.5 19.6-99.9 53.6-36.4-33.8-72.4-53.2-99.9-53.2v22.3c20.7 0 51.4 16.5 84 46.6-14 14.7-28 31.4-41.3 49.9-22.6 2.4-44 6.1-63.6 11-2.3-10-4-19.7-5.2-29-4.7-38.2 1.1-67.9 14.6-75.8 3-1.8 6.9-2.6 11.5-2.6v-22.3c-8.4 0-16 1.8-22.6 5.6-28.1 16.2-34.4 66.7-19.9 130.1-62.2 19.2-102.7 49.9-102.7 82.3 0 32.5 40.7 63.3 103.1 82.4-14.4 63.6-8 114.2 20.2 130.4 6.5 3.8 14.1 5.6 22.5 5.6 27.5 0 63.5-19.6 99.9-53.6 36.4 33.8 72.4 53.2 99.9 53.2 8.4 0 16-1.8 22.6-5.6 28.1-16.2 34.4-66.7 19.9-130.1 62-19.1 102.5-49.9 102.5-82.3zm-130.2-66.7c-3.7 12.9-8.3 26.2-13.5 39.5-4.1-8-8.4-16-13.1-24-4.6-8-9.5-15.8-14.4-23.4 14.2 2.1 27.9 4.7 41 7.9zm-45.8 106.5c-7.8 13.5-15.8 26.3-24.1 38.2-14.9 1.3-30 2-45.2 2-15.1 0-30.2-.7-45-1.9-8.3-11.9-16.4-24.6-24.2-38-7.6-13.1-14.5-26.4-20.8-39.8 6.2-13.4 13.2-26.8 20.7-39.9 7.8-13.5 15.8-26.3 24.1-38.2 14.9-1.3 30-2 45.2-2 15.1 0 30.2.7 45 1.9 8.3 11.9 16.4 24.6 24.2 38 7.6 13.1 14.5 26.4 20.8 39.8-6.3 13.4-13.2 26.8-20.7 39.9zm32.3-13c5.4 13.4 10 26.8 13.8 39.8-13.1 3.2-26.9 5.9-41.2 8 4.9-7.7 9.8-15.6 14.4-23.7 4.6-8 8.9-16.1 13-24.1zm-101.4 106.7c-9.3-9.6-18.6-20.3-27.8-32 9 .4 18.2.7 27.5.7 9.4 0 18.7-.2 27.8-.7-9 11.7-18.3 22.4-27.5 32zm-74.4-58.9c-14.2-2.1-27.9-4.7-41-7.9 3.7-12.9 8.3-26.2 13.5-39.5 4.1 8 8.4 16 13.1 24s9.5 15.8 14.4 23.4zm73.9-208.1c9.3 9.6 18.6 20.3 27.8 32-9-.4-18.2-.7-27.5-.7-9.4 0-18.7.2-27.8.7 9-11.7 18.3-22.4 27.5-32zm-74 58.9c-4.9 7.7-9.8 15.6-14.4 23.7-4.6 8-8.9 16-13 24-5.4-13.4-10-26.8-13.8-39.8 13.1-3.1 26.9-5.8 41.2-7.9zm-90.5 125.2c-35.4-15.1-58.3-34.9-58.3-50.6s22.9-35.6 58.3-50.6c8.6-3.7 18-7 27.7-10.1 5.7 19.6 13.2 40 22.5 60.9-9.2 20.8-16.6 41.1-22.2 60.6-9.9-3.1-19.3-6.5-28-10.2zm53.8 142.9c-13.6-7.8-19.5-37.5-14.9-75.7 1.1-9.4 2.9-19.3 5.1-29.4 19.6 4.8 41 8.5 63.5 10.9 13.5 18.5 27.5 35.3 41.6 50-32.6 30.3-63.2 46.9-84 46.9-4.5-.1-8.3-1-11.3-2.7zm237.2-76.2c4.7 38.2-1.1 67.9-14.6 75.8-3 1.8-6.9 2.6-11.5 2.6-20.7 0-51.4-16.5-84-46.6 14-14.7 28-31.4 41.3-49.9 22.6-2.4 44-6.1 63.6-11 2.3 10.1 4.1 19.8 5.2 29.1zm38.5-66.7c-8.6 3.7-18 7-27.7 10.1-5.7-19.6-13.2-40-22.5-60.9 9.2-20.8 16.6-41.1 22.2-60.6 9.9 3.1 19.3 6.5 28.1 10.2 35.4 15.1 58.3 34.9 58.3 50.6-.1 15.7-23 35.6-58.4 50.6z"/><circle cx="420.9" cy="296.5" r="45.7"/></g></svg>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3 class="font-weight-bold text-white">
+                        React
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-8">
+                        C’est une bibliothèque JavaScript libre développée par Facebook. Le but principal de cette bibliothèque est de faciliter la création d'application web
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                    <!-- Icon -->
+                    <div class="icon icon-lg mb-4 ml-2">
+                        <svg enable-background="new 0 0 2500 2165.1" viewBox="0 0 2500 2165.1" xmlns="http://www.w3.org/2000/svg"><path d="m1538.7 0-288.7 500-288.7-500h-961.3l1250 2165.1 1250-2165.1z" fill="#4dba87"/><path d="m1538.7 0-288.7 500-288.7-500h-461.3l750 1299 750-1299z" fill="#435466"/></svg>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3 class="font-weight-bold text-white">
+                        VueJS
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-8 mb-lg-0">
+                        C’est un framework JavaScript open-source utilisé pour construire des interfaces utilisateur. La bibliothèque est notamment utilisée par Adobe, Alibaba et Gitlab
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                    <!-- Icon -->
+                    <div class="icon icon-lg mb-4">
+                        <svg height="2500" viewBox="-23.04085003 -23.7 545.4320132 647" width="2079" xmlns="http://www.w3.org/2000/svg"><path d="m466.95 79.52c-55.66-79.62-165.6-103.22-245.08-52.6l-139.58 88.93c-9.39 5.9-18.15 12.76-26.12 20.47-7.98 7.71-15.13 16.23-21.34 25.42s-11.45 19-15.64 29.27a160.478 160.478 0 0 0 -9.26 31.87c-1.65 9.15-2.55 18.43-2.67 27.73-.13 9.31.52 18.61 1.93 27.8 1.41 9.2 3.58 18.27 6.48 27.11s6.53 17.42 10.85 25.66a161.68 161.68 0 0 0 -8.22 13.97c-2.51 4.79-4.77 9.71-6.78 14.73s-3.76 10.14-5.25 15.34-2.71 10.47-3.67 15.79a170.365 170.365 0 0 0 1.55 67.48c2.5 11.05 6.09 21.83 10.73 32.17s10.29 20.2 16.89 29.42c55.66 79.62 165.59 103.22 245.07 52.6l139.58-88.56c9.39-5.91 18.13-12.78 26.1-20.5a160.58 160.58 0 0 0 21.33-25.42c6.21-9.18 11.45-18.99 15.64-29.26 4.19-10.26 7.3-20.94 9.29-31.85 1.65-9.15 2.54-18.42 2.66-27.72s-.53-18.6-1.95-27.79c-1.41-9.19-3.58-18.25-6.49-27.09-2.91-8.83-6.54-17.41-10.86-25.65 2.97-4.51 5.72-9.18 8.23-13.97 2.5-4.79 4.77-9.71 6.78-14.73s3.77-10.14 5.27-15.34c1.49-5.19 2.73-10.46 3.7-15.78 1.98-11.16 2.84-22.49 2.58-33.82s-1.65-22.6-4.15-33.66c-2.5-11.05-6.09-21.83-10.73-32.17a170.906 170.906 0 0 0 -16.87-29.42" fill="#ff3e00"/><path d="m208.23 527.78a110.876 110.876 0 0 1 -33.49 3.42c-11.27-.58-22.39-2.86-32.97-6.79a111.06 111.06 0 0 1 -29.42-16.35 111.108 111.108 0 0 1 -23.15-24.42c-3.97-5.55-7.37-11.47-10.15-17.69a102.38 102.38 0 0 1 -6.45-19.34c-1.49-6.65-2.33-13.43-2.48-20.24s.38-13.62 1.58-20.33c.19-1.09.41-2.18.65-3.26.23-1.09.49-2.17.77-3.24.27-1.08.57-2.15.89-3.22.31-1.06.65-2.12 1-3.17l2.63-8.03 7.17 5.35c4.11 3 8.35 5.83 12.7 8.47 4.35 2.65 8.81 5.11 13.37 7.37 4.55 2.27 9.21 4.35 13.94 6.22 4.73 1.88 9.54 3.55 14.42 5.02l5.35 1.55-.48 5.35a31.395 31.395 0 0 0 1.12 10.81c.49 1.76 1.14 3.46 1.93 5.1s1.72 3.21 2.78 4.69a33.4 33.4 0 0 0 6.99 7.35c2.68 2.08 5.67 3.74 8.86 4.92s6.53 1.86 9.93 2.03c3.39.18 6.79-.17 10.08-1.03.76-.2 1.5-.43 2.24-.69s1.47-.54 2.18-.86c.72-.31 1.42-.65 2.12-1.02.69-.36 1.36-.75 2.02-1.17l139.37-88.94a28.96 28.96 0 0 0 4.75-3.72c1.45-1.41 2.74-2.96 3.87-4.63s2.07-3.46 2.83-5.33c.75-1.87 1.31-3.81 1.67-5.79.35-2.03.5-4.08.45-6.14-.05-2.05-.31-4.09-.77-6.1-.45-2-1.11-3.95-1.96-5.83-.84-1.87-1.88-3.65-3.08-5.32-1.94-2.79-4.29-5.26-6.98-7.34s-5.68-3.74-8.86-4.92a33.464 33.464 0 0 0 -9.93-2.04c-3.4-.17-6.8.18-10.09 1.03-.75.2-1.5.43-2.24.69s-1.46.54-2.18.85c-.72.32-1.42.66-2.11 1.03-.69.36-1.37.76-2.03 1.18l-53.52 33.98c-2.18 1.38-4.42 2.68-6.7 3.9-2.29 1.21-4.61 2.34-6.98 3.38s-4.78 1.99-7.22 2.84c-2.44.86-4.91 1.62-7.41 2.29-10.91 2.82-22.18 3.96-33.43 3.38s-22.34-2.87-32.9-6.78c-10.56-3.92-20.46-9.43-29.36-16.33s-16.7-15.11-23.13-24.36c-3.95-5.55-7.34-11.48-10.11-17.7-2.78-6.22-4.93-12.7-6.42-19.34-1.49-6.65-2.31-13.43-2.45-20.24-.15-6.8.38-13.61 1.59-20.31a96.419 96.419 0 0 1 14.94-36.86 96.283 96.283 0 0 1 28.57-27.68l139.8-88.93c2.17-1.38 4.39-2.68 6.66-3.9 2.27-1.21 4.59-2.34 6.94-3.38a98.21 98.21 0 0 1 7.18-2.84c2.42-.86 4.88-1.63 7.37-2.3 10.92-2.83 22.21-3.99 33.47-3.42 11.27.58 22.38 2.86 32.96 6.79 10.58 3.92 20.49 9.44 29.41 16.35a111.11 111.11 0 0 1 23.14 24.43c3.96 5.54 7.37 11.46 10.16 17.68s4.95 12.69 6.46 19.34c1.5 6.65 2.34 13.43 2.49 20.24.16 6.81-.36 13.62-1.56 20.33-.21 1.1-.43 2.2-.68 3.29-.24 1.09-.5 2.18-.78 3.26-.27 1.09-.57 2.17-.88 3.24-.31 1.08-.63 2.15-.98 3.21l-2.67 8.03-7.12-5.35c-4.12-3.03-8.37-5.87-12.73-8.54-4.36-2.66-8.84-5.14-13.41-7.43a182.39 182.39 0 0 0 -28.45-11.32l-5.36-1.55.49-5.35c.15-1.83.14-3.67-.03-5.49-.16-1.82-.49-3.63-.97-5.4-.49-1.76-1.12-3.49-1.91-5.14-.78-1.66-1.71-3.24-2.77-4.74a33.153 33.153 0 0 0 -6.99-7.2 32.991 32.991 0 0 0 -8.82-4.8 33.244 33.244 0 0 0 -19.83-.89c-.76.2-1.51.43-2.24.68-.74.26-1.47.55-2.19.86-.71.31-1.42.66-2.11 1.02-.69.37-1.37.76-2.03 1.18l-139.63 88.78c-1.7 1.07-3.29 2.32-4.73 3.72s-2.74 2.95-3.87 4.61a29.724 29.724 0 0 0 -2.83 5.31c-.76 1.87-1.32 3.8-1.68 5.78-.35 2.03-.5 4.09-.45 6.15a31.547 31.547 0 0 0 2.73 11.95 31.84 31.84 0 0 0 3.07 5.34c1.93 2.76 4.27 5.22 6.94 7.28a33.26 33.26 0 0 0 8.79 4.9 33.533 33.533 0 0 0 19.86 1.09c.75-.21 1.5-.44 2.24-.7.73-.26 1.46-.55 2.18-.86a29.2 29.2 0 0 0 2.11-1.02c.69-.36 1.37-.75 2.03-1.17l53.52-33.92c2.19-1.4 4.42-2.72 6.71-3.94 2.28-1.23 4.61-2.36 6.99-3.41a99.39 99.39 0 0 1 7.23-2.84c2.45-.86 4.93-1.62 7.44-2.28 10.92-2.84 22.2-4 33.47-3.44 11.27.57 22.38 2.85 32.96 6.77 10.57 3.92 20.49 9.43 29.4 16.35 8.92 6.91 16.72 15.14 23.15 24.41 3.96 5.55 7.36 11.47 10.15 17.69a102.65 102.65 0 0 1 6.46 19.34c1.5 6.64 2.34 13.42 2.5 20.23.16 6.82-.37 13.63-1.56 20.33a96.419 96.419 0 0 1 -5.55 19.21 95.753 95.753 0 0 1 -9.4 17.65c-3.73 5.54-8.03 10.68-12.83 15.33s-10.07 8.79-15.73 12.35l-139.64 88.93c-2.19 1.39-4.43 2.7-6.71 3.92-2.29 1.22-4.62 2.35-7 3.39-2.37 1.05-4.78 2-7.23 2.86-2.44.86-4.92 1.63-7.42 2.3" fill="#fff"/></svg>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3 class="font-weight-bold text-white">
+                        SvelteJS
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-8 mb-md-0">
+                        C’est un cadre pour construire des interfaces utilisateur, comme Vue ou React. La principale différence est que Svelte est un compilateur, contrairement à React ou Vue qui s'exécute dans le navigateur
+                    </p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light py-8 py-md-7">
+        <div class="container">
+            <br>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center">
+
+                    <!-- Heading -->
+                    <h2 class="font-weight-bold text-dark">
+                        PHP
+                    </h2>
+
+                    <!-- Text -->
+                    <p class="font-size-lg text-muted mb-9">
+                        PHP, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale
+                    </p>
+
+
+                </div>
+            </div> <!-- / .row -->
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                    <!-- Icon -->
+                    <div class="icon icon-lg mb-4">
+                        <svg width="2490" height="2500" viewBox="0 0 256 257" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><circle fill="#1A171B" cx="128" cy="128.827" r="128"/><path d="M183.706 48.124c-12.986.453-24.32 7.61-32.757 17.51-9.342 10.855-15.557 23.73-20.035 36.872-8.01-6.565-14.19-15.064-27.041-18.77-9.933-2.852-20.366-1.674-29.96 5.474-4.545 3.395-7.676 8.527-9.165 13.351-3.855 12.537 4.053 23.694 7.645 27.7l7.853 8.416c1.619 1.65 5.518 5.955 3.612 12.127-2.06 6.71-10.15 11.055-18.448 8.495-3.706-1.13-9.03-3.891-7.838-7.779.493-1.59 1.631-2.78 2.241-4.155.56-1.181.827-2.067.997-2.587 1.516-4.95-.555-11.39-5.857-13.025-4.946-1.516-10.007-.315-11.969 6.054-2.225 7.235 1.237 20.366 19.783 26.084 21.729 6.676 40.11-5.155 42.717-20.586 1.642-9.665-2.722-16.845-10.717-26.08l-6.514-7.204c-3.946-3.942-5.301-10.661-1.217-15.825 3.446-4.356 8.354-6.215 16.392-4.029 11.733 3.186 16.963 11.327 25.69 17.893-3.603 11.819-5.958 23.682-8.09 34.32l-1.299 7.931c-6.238 32.721-11 50.688-23.375 61.003-2.493 1.773-6.057 4.427-11.429 4.612-2.816.087-3.726-1.85-3.765-2.694-.067-1.977 1.599-2.883 2.706-3.773 1.654-.902 4.155-2.398 3.985-7.191-.18-5.664-4.872-10.575-11.654-10.35-5.08.173-12.823 4.954-12.532 13.705.303 9.039 8.728 15.813 21.43 15.384 6.79-.233 21.952-2.997 36.895-20.76 17.392-20.362 22.256-43.705 25.915-60.79l4.084-22.556c2.269.272 4.695.453 7.334.516 21.661.457 32.496-10.763 32.657-18.924.107-4.939-3.241-9.799-7.928-9.689-3.355.095-7.57 2.328-8.582 6.968-.988 4.552 6.893 8.66.733 12.65-4.376 2.832-12.221 4.828-23.269 3.206l2.009-11.103c4.1-21.055 9.157-46.954 28.341-47.584 1.398-.071 6.514.063 6.633 3.446.035 1.13-.245 1.418-1.568 4.005-1.347 2.017-1.855 3.734-1.792 5.707.185 5.376 4.273 8.909 10.185 8.696 7.916-.256 10.193-7.963 10.063-11.921-.32-9.3-10.122-15.175-23.1-14.75z" fill="#FFF"/></svg>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3 class="font-weight-bold text-dark">
+                        Symfony
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-8">
+                        Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP
+                    </p>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                    <!-- Icon -->
+                    <div class="icon icon-lg mb-4">
+                        <svg width="2500" height="2500" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M136.233 94.936a3.833 3.833 0 0 0 0-5.422 3.833 3.833 0 0 0-5.422 0 3.831 3.831 0 0 0 0 5.422 3.835 3.835 0 0 0 5.422 0zm-13.7 2.865a3.831 3.831 0 0 0 0 5.422 3.835 3.835 0 0 0 5.422 0 3.833 3.833 0 1 0-5.422-5.422zm23.766 2.015a5.999 5.999 0 0 0-8.484 0l-4.99 4.99a5.997 5.997 0 0 0 0 8.484l5.478 5.48a5.999 5.999 0 0 0 8.484 0l4.99-4.99a6 6 0 0 0 0-8.485l-5.478-5.479zm48.113-18.002c6.331-12.058-2.625-19.101-8.782-24.882-9.861-9.27-19.697-13.278-30.931-.442-11.227 12.836-4.094 27.723 6.175 35.07 10.274 7.348 27.197 2.309 33.538-9.746zm-17.01-4.945c-3.957-4.742 3.439-13.352 8.08-8.21 8.546 9.471-4.117 12.952-8.08 8.21zM128.001 0C57.31 0 0 57.308 0 127.996 0 198.688 57.309 256 128.002 256 198.692 256 256 198.688 256 127.996 256 57.308 198.692 0 128.002 0zm69.217 148.974c-13.348-8.821-20.975-16.275-27.62-29.639-4.543 9.157-15.151 22.772-33.046 33.482-8.934 27.792-51.432 80.98-65.186 73.44-4.072-2.23-4.846-5.167-3.926-8.198C68.428 210.462 84.144 193 84.144 193s.332 3.664 5.36 11.383c-6.64-20.616 10.973-46.054 15.639-54.714 7.332-2.337 7.863-11.75 7.863-11.75.469-14.552-6.031-25.087-12.33-31.388 4.525 5.524 5.99 13.871 6.205 21.516v.042c.023.864.023 1.712.02 2.557-.215 6.328-2.13 15.07-6.225 15.07l.012.055c-4.211-.18-9.41.718-14.055 2.17l-10.27 2.455s5.477-.251 8.434 2.304c-3.293 5.363-10.613 12.019-18.778 15.8-11.878 5.509-15.292-5.452-9.261-12.58a38.78 38.78 0 0 1 4.39-4.415c-.91-.942-1.484-2.204-1.635-3.805-.001-.008-.007-.016-.009-.024-.828-3.637-.371-8.359 4.775-15.863a39.714 39.714 0 0 1 3.694-4.872c.046-.057.085-.109.133-.164.062-.076.132-.148.197-.223.037-.04.072-.082.111-.125.367-.418.758-.826 1.176-1.22 6.133-6.282 15.82-12.815 31.086-18.678 17.802-26.168 24.322-31.076 24.322-31.076 1.97-2.015 5.416-4.521 6.682-5.16-9.297-16.155-11.174-38.928-8.738-45.065a8.821 8.821 0 0 0-.53 1.024c.903-2.102 1.508-2.777 2.446-3.883 2.539-3.004 11.144-4.578 14.234 1.785 1.646 3.393 1.957 7.787 1.902 11.082-6.814-.355-12.996 7.426-12.996 7.426s5.645-2.664 12.657-2.71c0 0 1.869 1.624 4.2 4.677-3.148 5.912-8.324 18.437-4.576 31.586.622 2.591 1.56 4.818 2.727 6.713.045.081.082.163.127.248.094.122.178.224.265.337 6.198 9.33 17.557 10.422 17.557 10.422a29.252 29.252 0 0 1-12.54-12.07c-1.473-2.756-2.376-5.082-2.93-6.917-3.008-11.618 1.42-18.4 3.955-22.946 5.832-9.047 16.457-14.524 27.877-13.22 16.027 1.83 27.539 16.306 25.707 32.329-1.117 9.79-6.957 17.887-14.98 22.293 1.93 5.223-.133 11.555-.133 11.555 4.859 6.113 5.073 9.636 4.905 12.91-6.175-1.04-12.175 3.129-12.175 3.129s11.914-2.844 18.836 3.33c4.501 4.841 7.504 9.217 9.293 12.448 2.562 4.61 14.46 4.938 13.105 13.227-1.355 8.276-10.43 8.355-24.656-1.031z" fill="#221E1F"/></svg>
+                    </div>
+
+                    <!-- Heading -->
+                    <h3 class="font-weight-bold text-dark">
+                        GravPHP
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-8 mb-lg-0">
+                        C'est un « CMS hybride », un mix entre deux monde bien distincts. D’un coté vous avez les CMS avec une base de données tel que WordPress. Et de l’autre, vous avez les CMS dit statiques
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- TECHNOS -->
+
+
+    <footer class="py-8 py-md-11 bg-dark">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-4 col-lg-3">
@@ -420,11 +698,17 @@
                                 </a>
                             </li>
                         </ul>
-
                     </div>
-
                 </div> <!-- / .row -->
             </div> <!-- / .container -->
         </footer>
-    </section>
+
+    <script>
+        const typed = new Typed('#typed',{
+            strings : ["Médiamaticien", "Développeur Frontend", "Développeur Backend"],
+            typeSpeed : 100,
+            backSpeed : 50,
+            loop : true
+        })
+    </script>
 {% endblock %}

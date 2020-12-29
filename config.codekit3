@@ -351,6 +351,16 @@
 		"oAP": "/public/.htaccess",
 		"oF": 0
 		},
+	"/public/assets/css/style.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/public/assets/css/style.min-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/public/assets/css/style.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -10101,6 +10111,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/public/assets/img/screenshots/ui/coder.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/assets/img/screenshots/ui/coder.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/public/assets/img/screenshots/ui/dashkit-layered.png": {
 		"ft": 32768,
 		"iS": 196943,
@@ -10114,6 +10134,16 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/public/assets/img/screenshots/ui/dev.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/assets/img/screenshots/ui/dev.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/public/assets/img/screenshots/ui/mobile-chat.png": {
 		"ft": 32768,
 		"iS": 72457,
@@ -10126,6 +10156,16 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/public/assets/img/screenshots/ui/moreDev.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/assets/img/screenshots/ui/moreDev.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/public/assets/img/shapes/angles/angle-bottom.svg": {
 		"ft": 2097152,
@@ -12234,6 +12274,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/assets/video/video-1.mp4",
+		"oF": 0
+		},
+	"/public/assets/video/video-2.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/assets/video/video-2.mp4",
+		"oF": 0
+		},
+	"/public/assets/video/video-3.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/assets/video/video-3.mp4",
 		"oF": 0
 		},
 	"/public/index.php": {
