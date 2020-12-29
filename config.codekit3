@@ -12439,6 +12439,14 @@
 		"oAP": "/templates/base.html.twig",
 		"oF": 0
 		},
+	"/templates/bundles/TwigBundle/Exception/error404.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/bundles/TwigBundle/Exception/error404.html.twig",
+		"oF": 0
+		},
 	"/templates/homepage/index.html.twig": {
 		"cB": 0,
 		"ft": 8192,
