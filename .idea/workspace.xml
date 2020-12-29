@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0b0aa8b-be86-4315-801d-660c67869142" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/desktop/uxDesign.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ParcoursController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CompetenceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/competence/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/competence/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/homepage/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/parcours/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/competence/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/portfolio/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +126,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1mAT1OZwQDji8Xvq3jlgV5KeLYm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -134,6 +136,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -169,12 +172,15 @@
       <workItem from="1609067035094" duration="76000" />
       <workItem from="1609067231677" duration="3099000" />
       <workItem from="1609107639870" duration="29203000" />
-      <workItem from="1609246013996" duration="13262000" />
+      <workItem from="1609246013996" duration="14571000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2732" y="436" key="#Composer" timestamp="1608935185480">
