@@ -441,7 +441,6 @@
                     </h1>
 
 
-
                 </div>
             </div> <!-- / .row -->
             <div class="row align-items-center no-gutters">
@@ -463,27 +462,7 @@
                                     </div>
 
 
-                                        {# render the start tag and change the submission method #}
-                                        {{ form_start(form) }}
-
-                                        <div class="form-label">
-                                            {{ form(form.lastname) }}
-                                        </div>
-                                        <div class="form-label-group form-control form-control-flush">
-                                            {{ form(form.firstname) }}
-                                        </div>
-                                        <div class="form-label-group form-control form-control-flush">
-                                            {{ form(form.email) }}
-                                        </div>
-                                        <div class="form-label-group form-control form-control-flush">
-                                            {{ form(form.message) }}
-                                        </div>
-
-                                        <button class="card-btn btn btn-block btn-lg btn-primary mt-9" type="submit">
-                                            Envoyer
-                                        </button>
-                                        {{ form_end(form) }}
-
+                                       {{ form(form) }}
 
 
                                 </div>
