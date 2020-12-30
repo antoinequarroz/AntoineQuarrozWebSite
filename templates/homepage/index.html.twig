@@ -462,30 +462,29 @@
                       </span>
                                     </div>
 
-                                    <form>
-                                        <div class="form-label-group">
-                                            <input type="text" class="form-control form-control-flush" id="cardName" placeholder="Name">
-                                            <label for="cardName">Nom</label>
-                                        </div>
-                                        <div class="form-label-group">
-                                            <input type="text" class="form-control form-control-flush" id="cardName" placeholder="Name">
-                                            <label for="cardName">Prénom</label>
-                                        </div>
-                                        <div class="form-label-group">
-                                            <input type="email" class="form-control form-control-flush" id="cardEmail" placeholder="Email">
-                                            <label for="cardEmail">Email</label>
-                                        </div>
-                                        <div class="form-label-group">
-                                            <textarea class="form-control form-control-flush" id="cardDescription" rows="3" placeholder="Message"></textarea>
-                                            <label for="cardDescription">Message</label>
 
+                                        {# render the start tag and change the submission method #}
+                                        {{ form_start(form) }}
+
+                                        <div class="form-label">
+                                            {{ form(form.lastname) }}
                                         </div>
-                                        <div class="mt-6">
-                                            <button class="btn btn-block btn-primary lift" type="submit">
-                                                Envoyer
-                                            </button>
+                                        <div class="form-label-group form-control form-control-flush">
+                                            {{ form(form.firstname) }}
                                         </div>
-                                    </form>
+                                        <div class="form-label-group form-control form-control-flush">
+                                            {{ form(form.email) }}
+                                        </div>
+                                        <div class="form-label-group form-control form-control-flush">
+                                            {{ form(form.message) }}
+                                        </div>
+
+                                        <button class="card-btn btn btn-block btn-lg btn-primary mt-9" type="submit">
+                                            Envoyer
+                                        </button>
+                                        {{ form_end(form) }}
+
+
 
                                 </div>
                             </div> <!-- / .row -->

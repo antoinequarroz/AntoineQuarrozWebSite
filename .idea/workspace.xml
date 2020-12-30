@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0b0aa8b-be86-4315-801d-660c67869142" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/desktop/uxDesign.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AntoineQuarroz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AntoineQuarroz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/competence/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/competence/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomepageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ContactType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ContactType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/homepage/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,6 +136,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
       <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mAT1OZwQDji8Xvq3jlgV5KeLYm" />
@@ -152,6 +167,7 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -172,7 +188,7 @@
       <workItem from="1609067035094" duration="76000" />
       <workItem from="1609067231677" duration="3099000" />
       <workItem from="1609107639870" duration="29203000" />
-      <workItem from="1609246013996" duration="14571000" />
+      <workItem from="1609246013996" duration="23623000" />
     </task>
     <servers />
   </component>
@@ -195,13 +211,21 @@
       <screen x="1680" y="25" width="2560" height="1055" />
     </state>
     <state x="2668" y="197" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609266085731" />
-    <state x="2698" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609192768459">
+    <state x="2698" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609286543961">
       <screen x="1680" y="25" width="2560" height="1055" />
     </state>
-    <state x="2698" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609192768459" />
-    <state x="2625" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1609266046954">
+    <state x="2698" y="313" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609286543961" />
+    <state x="2491" y="197" key="SettingsEditor" timestamp="1609279870204">
       <screen x="1680" y="25" width="2560" height="1055" />
     </state>
-    <state x="2625" y="259" width="670" height="676" key="search.everywhere.popup/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609266046954" />
+    <state x="2491" y="197" key="SettingsEditor/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609279870204" />
+    <state x="2723" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609286795427">
+      <screen x="1680" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2723" y="468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609286795427" />
+    <state x="2625" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1609279890318">
+      <screen x="1680" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2625" y="259" width="670" height="676" key="search.everywhere.popup/0.25.1680.1025/1680.25.2560.1055/4240.25.1680.1025@1680.25.2560.1055" timestamp="1609279890318" />
   </component>
 </project>
