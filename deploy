@@ -1,1 +1,0 @@
-rsync -av ./ k390c_antoinequarroz@antoinequarroz.ch:~/antoinequarroz --include=vendor --include=.htacces --exclude-from=.gitignore --exclude=".*"
