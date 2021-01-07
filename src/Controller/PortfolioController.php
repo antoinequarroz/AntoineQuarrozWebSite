@@ -13,6 +13,6 @@ class PortfolioController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('portfolio/indexcv.html.twig');
+        return $this->render('portfolio/indexcvb.html.twig');
     }
 }

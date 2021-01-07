@@ -5,7 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/PortfolioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PortfolioController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/portfolio/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/competence/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/competence/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/portfolio/indexcv.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio/indexcvb.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +207,14 @@
       <workItem from="1609887869744" duration="1046000" />
       <workItem from="1609888954019" duration="41000" />
       <workItem from="1609889143628" duration="359000" />
-      <workItem from="1609889756015" duration="102000" />
+      <workItem from="1609889756015" duration="1220000" />
+      <workItem from="1609926425938" duration="428000" />
+      <workItem from="1609940335257" duration="788000" />
+      <workItem from="1609941984367" duration="193000" />
+      <workItem from="1609951851068" duration="9000" />
+      <workItem from="1609954647931" duration="536000" />
+      <workItem from="1609961609535" duration="649000" />
+      <workItem from="1610023323517" duration="406000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1609597432275</created>
