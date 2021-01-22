@@ -20,8 +20,6 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - name: Install composer
-      run: composer install
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
       with:
