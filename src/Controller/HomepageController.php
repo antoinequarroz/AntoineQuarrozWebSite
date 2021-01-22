@@ -43,7 +43,7 @@ class HomepageController extends AbstractController
         }
 
 
-            return $this->render('homepage/index.html.twig', [
+            return $this->render(':homepage:index1.html.twig', [
                 'form' => $form->createView()
             ]);
     }

@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b0b0aa8b-be86-4315-801d-660c67869142" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PortfolioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PortfolioController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/competence/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/competence/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/homepage/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/portfolio/indexcv.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio/indexcvb.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomepageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/index1.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +211,10 @@
       <workItem from="1609951851068" duration="9000" />
       <workItem from="1609954647931" duration="536000" />
       <workItem from="1609961609535" duration="649000" />
-      <workItem from="1610023323517" duration="406000" />
+      <workItem from="1610023323517" duration="976000" />
+      <workItem from="1610134772502" duration="132000" />
+      <workItem from="1610136139864" duration="915000" />
+      <workItem from="1611303310537" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1609597432275</created>
